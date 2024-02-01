@@ -1,0 +1,57 @@
+:root {
+  --primary-color: #155263;
+  --box-shadow: 10px 11px 7px rgba(0, 0, 0, 0.3);
+  --border-radius: 6px;
+  --text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact-me {
+  background: var(--primary-color);
+  padding: 20px;
+  color: white;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  text-decoration: var(--text-decoration);
+}
+#about-me {
+  background: whitesmoke;
+  text-decoration: var(--text-decoration);
+  padding: 20px;
+  color: var(--primary-color);
+  border-radius: var(--border-radius);
+}
+
+.data {
+  display: flex;
+  margin: 30px 0;
+}
+
+.data p {
+  background: whitesmoke;
+  margin: 10px;
+  padding: 20px;
+}
+h4 {
+  text-align: center;
+}
+#email {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+}
