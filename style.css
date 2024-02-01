@@ -17,12 +17,15 @@ h3 {
 
 .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-top: 40px;
+  
 }
 
 #contact-me {
   background: var(--primary-color);
-  padding: 20px;
+  margin: 20px;
+  padding: 20px 15px;
   color: white;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
@@ -31,7 +34,8 @@ h3 {
 #about-me {
   background: whitesmoke;
   text-decoration: var(--text-decoration);
-  padding: 20px;
+  padding: 20px 15px;
+  margin: 20px;
   color: var(--primary-color);
   border-radius: var(--border-radius);
 }
