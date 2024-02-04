@@ -11,7 +11,7 @@ body{
   background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 }
 
-p{
+.lorem{
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
@@ -42,6 +42,12 @@ h3 {
   border-radius: var(--border-radius);
   text-decoration: var(--text-decoration);
 }
+
+#contact-me:hover{
+  background: white;
+  color: var(--primary-color);
+
+}
 #about-me {
   background: whitesmoke;
   text-decoration: var(--text-decoration);
@@ -50,7 +56,10 @@ h3 {
   color: var(--primary-color);
   border-radius: var(--border-radius);
 }
-
+#about-me:hover{
+  background: var(--primary-color);
+  color: whitesmoke;
+}
 .data {
   display: flex;
   margin: 30px 0;
@@ -69,4 +78,15 @@ h4 {
   justify-content: center;
   text-decoration: none;
   color: var(--primary-color);
+}
+.yoga{
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 25px;
+  border-radius: 6px;
+  color: white;
+}
+.yoga:hover{
+  color: var(--primary-color);
+  background: white;
 }
