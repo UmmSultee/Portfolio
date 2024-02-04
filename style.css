@@ -6,8 +6,9 @@
 }
 
 body{
-  margin: 60px auto;
-  max-width: 800px;
+  
+  
+  background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
 }
 
 p{
@@ -35,7 +36,7 @@ h3 {
 #contact-me {
   background: var(--primary-color);
   margin: 20px;
-  padding: 20px 15px;
+  padding: 20px;
   color: white;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
@@ -44,8 +45,8 @@ h3 {
 #about-me {
   background: whitesmoke;
   text-decoration: var(--text-decoration);
-  padding: 20px 15px;
-  margin: 30px;
+  padding: 20px;
+  margin: 20px;
   color: var(--primary-color);
   border-radius: var(--border-radius);
 }
