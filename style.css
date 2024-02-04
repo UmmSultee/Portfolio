@@ -82,11 +82,35 @@ h4 {
 .yoga{
   text-decoration: none;
   background: var(--primary-color);
-  padding: 25px;
+  padding: 20px;
   border-radius: 6px;
   color: white;
 }
 .yoga:hover{
+  color: var(--primary-color);
+  background: white;
+}
+.weather-app{
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+}
+.weather-app:hover{
+  color: var(--primary-color);
+  background: white;
+}
+
+.midwifery-link{
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+}
+
+.midwifery-link:hover{
   color: var(--primary-color);
   background: white;
 }
