@@ -114,3 +114,6 @@ h4 {
   color: var(--primary-color);
   background: white;
 }
+.text-center{
+  font-size: 96px;
+}

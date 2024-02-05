@@ -4,39 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html" id="email">Back to homepage</a>
-    <h1>About Me</h1>
-    <h3>Front End developer from Kano, Nigeria</h3>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Hauwa Haruna</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <div class="data">
+    <h1 class="text-center mt-5">About Me</h1>
+    <h3 class="text-body-secondary">Front End developer from Kano, Nigeria</h3>
+
+    <div class="data text-center">
       <p class="lorem">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora qui
         non accusantium. Rerum quibusdam molestias, voluptatum omnis laudantium
         quas earum voluptate. Necessitatibus alias ipsum id voluptas deleniti,
-        voluptate repellendus beatae.
-        <br>
-        <br>
-
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum praesentium eos harum tenetur, magni iste consectetur esse ut alias velit iure perferendis hic unde fugiat eius repudiandae odit aliquam modi.
+        voluptate repellendus beatae
       </p>
-      <p class="lorem">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aut
-        labore? Est sint nobis earum optio, doloremque quae reiciendis,
-        recusandae commodi exercitationem voluptatum impedit sequi voluptatibus
-        temporibus sed nesciunt ratione.
-        <br>
-        <br>
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, rem harum repudiandae aperiam nostrum quisquam laboriosam fugiat iure ipsum, eveniet quam asperiores, ratione ex quidem culpa deserunt odit et in!
-      </p>
     </div>
 
-    <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/yoga.png" alt="" class="img-fluid rounded">
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/weather.jpeg" alt="" class="img-fluid rounded">
+        </div>
+
+        <div class="col-md-4">
+          <img src="images/midwifery.jpeg" alt="" class="img-fluid rounded">
+        </div>
+      </div>
+
+    </div>
+
+    <footer mt-5>
       
-      <h1 id="contact">☎️ Contact Me</h1>
+      <h1 id="contact">📲 Contact Me</h1>
       <a href="mailto:harounummie@gmail.com" id="email">hauwa@haruna.io</a>
     </footer>
   </body>
