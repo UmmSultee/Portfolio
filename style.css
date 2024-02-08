@@ -3,15 +3,24 @@
   --box-shadow: 10px 11px 7px rgba(0, 0, 0, 0.3);
   --border-radius: 6px;
   --text-decoration: none;
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: font-family: "Playfair Display", serif;;
 }
 
-body{
-  
-  
-  background: radial-gradient(circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(216, 241, 230, 0.46) 0.1%,
+    rgba(233, 226, 226, 0.28) 90.1%
+  );
+  font-family: var(--secondary-font);
+}
+header {
+  background: #f5f1fe;
+  margin-top: 70px;
 }
 
-.lorem{
+.lorem {
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
@@ -21,6 +30,7 @@ h2 {
 }
 h1 {
   text-align: center;
+  font-family: var(--primary-font);
 }
 h3 {
   text-align: center;
@@ -30,7 +40,6 @@ h3 {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-
 }
 
 #contact-me {
@@ -43,10 +52,9 @@ h3 {
   text-decoration: var(--text-decoration);
 }
 
-#contact-me:hover{
+#contact-me:hover {
   background: white;
   color: var(--primary-color);
-
 }
 #about-me {
   background: whitesmoke;
@@ -56,7 +64,7 @@ h3 {
   color: var(--primary-color);
   border-radius: var(--border-radius);
 }
-#about-me:hover{
+#about-me:hover {
   background: var(--primary-color);
   color: whitesmoke;
 }
@@ -79,30 +87,30 @@ h4 {
   text-decoration: none;
   color: var(--primary-color);
 }
-.yoga{
+.yoga {
   text-decoration: none;
   background: var(--primary-color);
   padding: 20px;
   border-radius: 6px;
   color: white;
 }
-.yoga:hover{
+.yoga:hover {
   color: var(--primary-color);
   background: white;
 }
-.weather-app{
+.weather-app {
   text-decoration: none;
   background: var(--primary-color);
   padding: 20px;
   border-radius: 6px;
   color: white;
 }
-.weather-app:hover{
+.weather-app:hover {
   color: var(--primary-color);
   background: white;
 }
 
-.midwifery-link{
+.midwifery-link {
   text-decoration: none;
   background: var(--primary-color);
   padding: 20px;
@@ -110,10 +118,18 @@ h4 {
   color: white;
 }
 
-.midwifery-link:hover{
+.midwifery-link:hover {
   color: var(--primary-color);
   background: white;
 }
-.text-center{
+.text-center {
   font-size: 96px;
+}
+@media (max-width: 800px){
+  img{
+    display: none;
+  }
+  p{
+    text-align: center;
+  }
 }
