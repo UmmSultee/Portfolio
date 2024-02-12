@@ -34,6 +34,8 @@ h1 {
 }
 h3 {
   text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 48px;
 }
 
 .links {
@@ -132,4 +134,7 @@ h4 {
   p{
     text-align: center;
   }
+}
+.contact-box{
+  background: #e0ffcd;
 }
