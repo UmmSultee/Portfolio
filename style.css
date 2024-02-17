@@ -136,5 +136,20 @@ h4 {
   }
 }
 .contact-box{
-  background: #e0ffcd;
+  background: rgba(65, 113, 13, 0.5);
+
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: rgba(65, 113, 13, 0.5);
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+footer .social-links a:hover{
+  background: var(--primary-color);
+  color: rgba(65, 113, 13, 0.5);
+  cursor: pointer;
 }
