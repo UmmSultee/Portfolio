@@ -134,6 +134,9 @@ h4 {
   p{
     text-align: center;
   }
+  footer{
+    padding: 6px;
+  }
 }
 .contact-box{
   background: rgba(65, 113, 13, 0.5);
