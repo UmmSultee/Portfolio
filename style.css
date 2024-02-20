@@ -4,7 +4,8 @@
   --border-radius: 6px;
   --text-decoration: none;
   --primary-font: "Poppins", sans-serif;
-  --secondary-font: font-family: "Playfair Display", serif;;
+  --secondary-font: font-family: "Playfair Display", serif;
+  --secondary-color: #7ed321;
 }
 
 body {
@@ -155,4 +156,69 @@ footer .social-links a:hover{
   background: var(--primary-color);
   color: rgba(65, 113, 13, 0.5);
   cursor: pointer;
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  line-height: 18px;
+
+
+}
+.container{
+  box-sizing: border-box;
+}
+nav a:hover{
+  color: var(--secondary-color)
+}
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+nav ul li{
+  margin: 0px 2px;
+  
+}
+nav ul li .active{
+  color: var(--secondary-color);
+}
+h1 .text-start{
+  font-family: var(--secondary-font) !important;
+  font-size: 80px;
+  line-height: 80px;
+}
+div ul li a .active{
+  color: var(--secondary-color);
+}
+form{
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin: 0px 10px 10px 10px;
+}
+
+form .form-contents{
+  padding: 15px;
+}
+.button{
+  padding: 15px 30px;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  background: rgba(65, 113, 13, 0.5);
+  color: var(--primary-color);
+}
+.button:hover{
+  color: rgba(65, 113, 13, 0.5);
+  background: var(--primary-color);
+}
+@media(max-width:900px) {
+  .container{
+    padding: 15px;
+  }
+  
+
 }
