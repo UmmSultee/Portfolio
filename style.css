@@ -216,9 +216,12 @@ form .form-contents{
   background: var(--primary-color);
 }
 @media(max-width:900px) {
-  .container{
-    padding: 15px;
+  nav{
+    display: flex;
+    justify-content: space-between;
+    
   }
+  
   
 
 }
